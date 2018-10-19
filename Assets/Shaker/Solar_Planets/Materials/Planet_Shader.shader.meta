@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: e808e4079fb520044ba5df85946540a7
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _2k_mars: {fileID: 2800000, guid: cb3620e818a82eb47b50ec849c8aab36, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
