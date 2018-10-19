@@ -5,6 +5,7 @@
 /[Bb]uild/
 /[Bb]uilds/
 /Assets/AssetStoreTools*
+/Assets/CurvedUI
 
 # External Dependencies 
 /Assets/Plugins
@@ -35,3 +36,4 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Assets/CurvedUI.meta
