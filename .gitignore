@@ -6,6 +6,7 @@
 /[Bb]uilds/
 /Assets/AssetStoreTools*
 /Assets/CurvedUI
+/.vs
 
 # External Dependencies 
 /Assets/Plugins
