@@ -243,6 +243,11 @@ namespace Valve.VR.InteractionSystem
 			}
 
             attachedToHand = hand;
+
+            if (gameObject.name == "Strange_object")
+            {
+                gameObject.GetComponent<OnHold>().OnHoldOBJ();
+            }
         }
 
 		private void OnDetachedFromHand( Hand hand )
@@ -262,7 +267,12 @@ namespace Valve.VR.InteractionSystem
 			}
 
             attachedToHand = null;
-		}
+
+            if (gameObject.name == "Strange_object")
+            {
+                gameObject.GetComponent<OnHold>().OnReleaseOBJ();
+            }
+        }
 
         protected virtual void OnDestroy()
         {
